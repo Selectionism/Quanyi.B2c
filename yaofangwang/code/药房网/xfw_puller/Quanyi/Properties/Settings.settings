@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Quanyi.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Quanyi_Zwm_Rfc_Kykc_Stock_ZWM_RFC_KYKC" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://ERPPRD01.MYQUANYI.COM:8000/sap/bc/srt/rfc/sap/zwm_rfc_kykc/800/zwm_rfc_kykc/zwm_rfc_kykc</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

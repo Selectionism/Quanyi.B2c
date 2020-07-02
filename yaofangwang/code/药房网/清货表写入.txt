@@ -1,0 +1,47 @@
+//snp_br_id => SELECT sv_fbid FROM system_var
+//snp_receive_date => SELECT MAX(snp_receive_date) FROM store_need_product
+
+//先写请货明细表
+string ls_pro_id
+decimal ld_need_qty
+for ll_row = 1 to ll_rowcount
+	ls_pro_id = get_pro_id(ll_row)
+	ld_need_qty = get_need_qty(ll_row)
+	  INSERT INTO store_need_product  
+				( snp_br_id,   
+				  snp_receive_date,   
+				  snp_pro_id,   
+				  snp_need_qty,   
+				  snp_status )  
+	  VALUES ( :gs_branch_id,   
+				  :id_current,   
+				  :ls_pro_id,   
+				  :ld_need_qty,   
+				  '1' )  ;
+	if sqlca.sqlcode <> 0 then
+		rollbackerror('审核失败,未能插入要货数据,商品编码: ' + ls_pro_id)
+		wf_set_audit_status('0')
+		return
+	end if
+next
+
+//再写请货上传日志表
+  INSERT INTO snp_upload_log  
+         ( snl_br_id,
+           snl_receive_date,   
+           snl_update_flag,   
+           snl_update_date,   
+           snl_upload_flag,   
+           snl_upload_date,   
+           snl_memo,
+           snl_process_flag,   
+           snl_process_date )  
+  VALUES ( :gs_branch_id,
+           :ls_day,   			// 字符串格式为yyyy/MM/dd！！！！！！！！！！！！！
+           '1',
+           :ls_day,
+           '1',
+           :ls_day,
+           'D',
+           '0',
+           null )  ;

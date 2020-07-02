@@ -1,0 +1,17 @@
+C:\Users\Administrator.CWBG-20190110OX\Desktop\药房网\xfw_puller\Quanyi.Entity\bin\Debug\Quanyi.Entity.dll
+C:\Users\Administrator.CWBG-20190110OX\Desktop\药房网\xfw_puller\Quanyi.Entity\bin\Debug\Quanyi.Entity.pdb
+C:\Users\Administrator.CWBG-20190110OX\Desktop\药房网\xfw_puller\Quanyi.Entity\obj\Debug\Quanyi.Entity.dll
+C:\Users\Administrator.CWBG-20190110OX\Desktop\药房网\xfw_puller\Quanyi.Entity\obj\Debug\Quanyi.Entity.pdb
+C:\Users\Administrator.CWBG-20190110OX\Desktop\药房网\xfw_puller\Quanyi.Entity\obj\Debug\Quanyi.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Administrator.CWBG-20190110OX\Desktop\药房网\xfw_puller\Quanyi.Entity\obj\Debug\Quanyi.Entity.csprojAssemblyReference.cache
+C:\Users\ldm\Desktop\药房网\xfw_puller\Quanyi.Entity\bin\Debug\Quanyi.Entity.dll
+C:\Users\ldm\Desktop\药房网\xfw_puller\Quanyi.Entity\bin\Debug\Quanyi.Entity.pdb
+C:\Users\ldm\Desktop\药房网\xfw_puller\Quanyi.Entity\obj\Debug\Quanyi.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ldm\Desktop\药房网\xfw_puller\Quanyi.Entity\obj\Debug\Quanyi.Entity.dll
+C:\Users\ldm\Desktop\药房网\xfw_puller\Quanyi.Entity\obj\Debug\Quanyi.Entity.pdb
+C:\Users\ldm\Desktop\天猫手动导入订单\tmall_importorder\Quanyi.Entity\bin\Debug\Quanyi.Entity.dll
+C:\Users\ldm\Desktop\天猫手动导入订单\tmall_importorder\Quanyi.Entity\bin\Debug\Quanyi.Entity.pdb
+C:\Users\ldm\Desktop\天猫手动导入订单\tmall_importorder\Quanyi.Entity\obj\Debug\Quanyi.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ldm\Desktop\天猫手动导入订单\tmall_importorder\Quanyi.Entity\obj\Debug\Quanyi.Entity.dll
+C:\Users\ldm\Desktop\天猫手动导入订单\tmall_importorder\Quanyi.Entity\obj\Debug\Quanyi.Entity.pdb
+C:\Users\ldm\Desktop\天猫手动导入订单\tmall_importorder\Quanyi.Entity\obj\Debug\Quanyi.Entity.csprojAssemblyReference.cache

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{45D41291-92C1-42CB-80C0-613BAECADF5E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Quanyi.Entity</RootNamespace>
+    <AssemblyName>Quanyi.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="APIModel\Medicine\ApiMedicineInfo.cs" />
+    <Compile Include="APIModel\Medicine\ApiMedicineBatchInfo.cs" />
+    <Compile Include="APIModel\Medicine\ApiPriceInfo.cs" />
+    <Compile Include="APIModel\Medicine\ApiStockModel.cs" />
+    <Compile Include="APIModel\Medicine\ApiStockBatchInfo.cs" />
+    <Compile Include="APIModel\Order\ApiBillInfo.cs" />
+    <Compile Include="APIModel\Order\ApiBillIProInfo.cs" />
+    <Compile Include="APIModel\Stock\ApiStockInfo.cs" />
+    <Compile Include="APIModel\Stock\ApiStockParam.cs" />
+    <Compile Include="DBEntity\Medicine\MedicineInfo.cs" />
+    <Compile Include="DBEntity\Order\BillInfo.cs" />
+    <Compile Include="DBEntity\Order\BillProInfo.cs" />
+    <Compile Include="HttpModel\ErrorResponseModel.cs" />
+    <Compile Include="HttpModel\HttpResponseModal.cs" />
+    <Compile Include="HttpModel\HttpResponseModel.cs" />
+    <Compile Include="HttpModel\SuccessResponseModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
