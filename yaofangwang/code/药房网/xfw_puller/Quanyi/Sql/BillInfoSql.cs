@@ -476,7 +476,8 @@ VALUES");
         public StringBuilder GetBillMaxOrderTime()
         {
             var sql = new StringBuilder();
-            sql.Append(@"SELECT MAX(OrderTime) FROM yfw_billinfo;");
+            sql.Append(@"SELECT MAX(OrderTime) FROM yfw_billinfo
+WHERE Platform='yaofangwang';");
             return sql;
         }
 

@@ -86,7 +86,7 @@ namespace Quanyi.B2c.Yaofangwang
         /// <param name="e"></param>
         private void btnSelectOrderDetail_Click(object sender, EventArgs e)
         {
-            openFileDialogOrderDetail.Filter = "(*.csv)|*.csv";
+            openFileDialogOrderDetail.Filter = "*.csv|*.csv";
             openFileDialogOrderDetail.Title = "请选择要上传的订单明细信息文件";
             openFileDialogOrderDetail.Multiselect = false;
             openFileDialogOrderDetail.FilterIndex = 0;

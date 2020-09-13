@@ -37,21 +37,21 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
             this.btnSelectOrder = new System.Windows.Forms.Button();
             this.txtOrderFileName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lblOrder = new System.Windows.Forms.Label();
+            this.dgvOrder = new System.Windows.Forms.DataGridView();
+            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
             this.btnSelectOrderDetail = new System.Windows.Forms.Button();
             this.txtOrderDetailFileName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dgvOrder = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.dgvOrderDetail = new System.Windows.Forms.DataGridView();
-            this.btnUpload = new System.Windows.Forms.Button();
-            this.lblOrder = new System.Windows.Forms.Label();
             this.lblOrderDetail = new System.Windows.Forms.Label();
+            this.dgvOrderDetail = new System.Windows.Forms.DataGridView();
             this.lblOrderInfoUpload = new System.Windows.Forms.Label();
+            this.btnUpload = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -64,12 +64,12 @@
             this.splitContainer3.Panel1.SuspendLayout();
             this.splitContainer3.Panel2.SuspendLayout();
             this.splitContainer3.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvOrder)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
             this.splitContainer4.Panel1.SuspendLayout();
             this.splitContainer4.Panel2.SuspendLayout();
             this.splitContainer4.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvOrder)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvOrderDetail)).BeginInit();
             this.SuspendLayout();
@@ -165,27 +165,6 @@
             this.splitContainer3.SplitterDistance = 59;
             this.splitContainer3.TabIndex = 0;
             // 
-            // splitContainer4
-            // 
-            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer4.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
-            this.splitContainer4.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer4.Name = "splitContainer4";
-            this.splitContainer4.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer4.Panel1
-            // 
-            this.splitContainer4.Panel1.Controls.Add(this.btnSelectOrderDetail);
-            this.splitContainer4.Panel1.Controls.Add(this.txtOrderDetailFileName);
-            this.splitContainer4.Panel1.Controls.Add(this.label3);
-            // 
-            // splitContainer4.Panel2
-            // 
-            this.splitContainer4.Panel2.Controls.Add(this.groupBox2);
-            this.splitContainer4.Size = new System.Drawing.Size(621, 530);
-            this.splitContainer4.SplitterDistance = 59;
-            this.splitContainer4.TabIndex = 0;
-            // 
             // btnSelectOrder
             // 
             this.btnSelectOrder.BackColor = System.Drawing.Color.PowderBlue;
@@ -215,6 +194,60 @@
             this.label2.Size = new System.Drawing.Size(152, 15);
             this.label2.TabIndex = 3;
             this.label2.Text = "订单Excel数据文件：";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.lblOrder);
+            this.groupBox1.Controls.Add(this.dgvOrder);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(652, 467);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "订单数据预览（默认只显示前10条）";
+            // 
+            // lblOrder
+            // 
+            this.lblOrder.AutoSize = true;
+            this.lblOrder.Location = new System.Drawing.Point(85, 246);
+            this.lblOrder.Name = "lblOrder";
+            this.lblOrder.Size = new System.Drawing.Size(112, 15);
+            this.lblOrder.TabIndex = 5;
+            this.lblOrder.Text = "订单处理结果：";
+            this.lblOrder.Visible = false;
+            // 
+            // dgvOrder
+            // 
+            this.dgvOrder.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvOrder.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvOrder.Location = new System.Drawing.Point(3, 21);
+            this.dgvOrder.Name = "dgvOrder";
+            this.dgvOrder.RowHeadersWidth = 51;
+            this.dgvOrder.RowTemplate.Height = 27;
+            this.dgvOrder.Size = new System.Drawing.Size(646, 443);
+            this.dgvOrder.TabIndex = 1;
+            // 
+            // splitContainer4
+            // 
+            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer4.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainer4.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer4.Name = "splitContainer4";
+            this.splitContainer4.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer4.Panel1
+            // 
+            this.splitContainer4.Panel1.Controls.Add(this.btnSelectOrderDetail);
+            this.splitContainer4.Panel1.Controls.Add(this.txtOrderDetailFileName);
+            this.splitContainer4.Panel1.Controls.Add(this.label3);
+            // 
+            // splitContainer4.Panel2
+            // 
+            this.splitContainer4.Panel2.Controls.Add(this.groupBox2);
+            this.splitContainer4.Size = new System.Drawing.Size(621, 530);
+            this.splitContainer4.SplitterDistance = 59;
+            this.splitContainer4.TabIndex = 0;
             // 
             // btnSelectOrderDetail
             // 
@@ -247,29 +280,6 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "订单明细CSV数据文件：";
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.lblOrder);
-            this.groupBox1.Controls.Add(this.dgvOrder);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.Location = new System.Drawing.Point(0, 0);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(652, 467);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "订单数据预览（默认只显示前10条）";
-            // 
-            // dgvOrder
-            // 
-            this.dgvOrder.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvOrder.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvOrder.Location = new System.Drawing.Point(3, 21);
-            this.dgvOrder.Name = "dgvOrder";
-            this.dgvOrder.RowHeadersWidth = 51;
-            this.dgvOrder.RowTemplate.Height = 27;
-            this.dgvOrder.Size = new System.Drawing.Size(646, 443);
-            this.dgvOrder.TabIndex = 1;
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.lblOrderDetail);
@@ -282,6 +292,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "订单明细数据预览（默认只显示前10条）";
             // 
+            // lblOrderDetail
+            // 
+            this.lblOrderDetail.AutoSize = true;
+            this.lblOrderDetail.Location = new System.Drawing.Point(68, 246);
+            this.lblOrderDetail.Name = "lblOrderDetail";
+            this.lblOrderDetail.Size = new System.Drawing.Size(142, 15);
+            this.lblOrderDetail.TabIndex = 7;
+            this.lblOrderDetail.Text = "订单详情处理结果：";
+            this.lblOrderDetail.Visible = false;
+            // 
             // dgvOrderDetail
             // 
             this.dgvOrderDetail.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -292,6 +312,16 @@
             this.dgvOrderDetail.RowTemplate.Height = 27;
             this.dgvOrderDetail.Size = new System.Drawing.Size(615, 443);
             this.dgvOrderDetail.TabIndex = 1;
+            // 
+            // lblOrderInfoUpload
+            // 
+            this.lblOrderInfoUpload.AutoSize = true;
+            this.lblOrderInfoUpload.Location = new System.Drawing.Point(400, 17);
+            this.lblOrderInfoUpload.Name = "lblOrderInfoUpload";
+            this.lblOrderInfoUpload.Size = new System.Drawing.Size(82, 15);
+            this.lblOrderInfoUpload.TabIndex = 7;
+            this.lblOrderInfoUpload.Text = "上传结果：";
+            this.lblOrderInfoUpload.Visible = false;
             // 
             // btnUpload
             // 
@@ -306,36 +336,6 @@
             this.btnUpload.Text = "上传订单和订单明细";
             this.btnUpload.UseVisualStyleBackColor = false;
             this.btnUpload.Click += new System.EventHandler(this.btnUpload_Click);
-            // 
-            // lblOrder
-            // 
-            this.lblOrder.AutoSize = true;
-            this.lblOrder.Location = new System.Drawing.Point(85, 246);
-            this.lblOrder.Name = "lblOrder";
-            this.lblOrder.Size = new System.Drawing.Size(112, 15);
-            this.lblOrder.TabIndex = 5;
-            this.lblOrder.Text = "订单处理结果：";
-            this.lblOrder.Visible = false;
-            // 
-            // lblOrderDetail
-            // 
-            this.lblOrderDetail.AutoSize = true;
-            this.lblOrderDetail.Location = new System.Drawing.Point(68, 246);
-            this.lblOrderDetail.Name = "lblOrderDetail";
-            this.lblOrderDetail.Size = new System.Drawing.Size(142, 15);
-            this.lblOrderDetail.TabIndex = 7;
-            this.lblOrderDetail.Text = "订单详情处理结果：";
-            this.lblOrderDetail.Visible = false;
-            // 
-            // lblOrderInfoUpload
-            // 
-            this.lblOrderInfoUpload.AutoSize = true;
-            this.lblOrderInfoUpload.Location = new System.Drawing.Point(400, 17);
-            this.lblOrderInfoUpload.Name = "lblOrderInfoUpload";
-            this.lblOrderInfoUpload.Size = new System.Drawing.Size(82, 15);
-            this.lblOrderInfoUpload.TabIndex = 7;
-            this.lblOrderInfoUpload.Text = "上传结果：";
-            this.lblOrderInfoUpload.Visible = false;
             // 
             // FrmImportOrder
             // 
@@ -364,14 +364,14 @@
             this.splitContainer3.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
             this.splitContainer3.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvOrder)).EndInit();
             this.splitContainer4.Panel1.ResumeLayout(false);
             this.splitContainer4.Panel1.PerformLayout();
             this.splitContainer4.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
             this.splitContainer4.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvOrder)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvOrderDetail)).EndInit();

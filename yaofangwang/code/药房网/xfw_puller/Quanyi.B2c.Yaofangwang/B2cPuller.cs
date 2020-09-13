@@ -121,16 +121,16 @@ namespace Quanyi.B2c.Yaofangwang
 
             #region 测试淮安广济20号丢订单问题
 
-            string hgOrderStartDate = "2020/6/20 00:00:00";
-            string hgOrderEndDate = "2020/6/21 00:00:00";
+            //string hgOrderStartDate = "2020/7/25 00:00:00";
+            //string hgOrderEndDate = "2020/7/27 00:00:00";
 
             #endregion
             //定义应用参数
             var appParamList = new Dictionary<string, string>();
-            //appParamList.Add("order_date_start", orderStartDate);
-            //appParamList.Add("order_date_end", orderEndDate);
-            appParamList.Add("order_date_start", hgOrderStartDate);
-            appParamList.Add("order_date_end", hgOrderEndDate);
+            appParamList.Add("order_date_start", orderStartDate);
+            appParamList.Add("order_date_end", orderEndDate);
+            //appParamList.Add("order_date_start", hgOrderStartDate);
+            //appParamList.Add("order_date_end", hgOrderEndDate);
             #region 药房网webapi调用
             //TO DO：调用webapi，调用药房网订单列表接口
             var responseData = _yfwWebApi.YfwApiRequest("api.get.order.list", appParamList, "GET");

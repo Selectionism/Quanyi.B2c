@@ -32,8 +32,8 @@ namespace Quanyi
                 if (key == null)
                 {
                     //当前是远程，后面改为连接本地
-                    //server = "localhost";
-                    server = "172.19.1.56";
+                    server = "localhost";
+                    //server = "172.19.1.56";
                     userID = "pos";
                     password = "mainpos1234";
                     database = "pos";

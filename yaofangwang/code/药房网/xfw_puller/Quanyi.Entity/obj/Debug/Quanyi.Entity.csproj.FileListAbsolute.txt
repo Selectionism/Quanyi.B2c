@@ -11,7 +11,7 @@ C:\Users\ldm\Desktop\药房网\xfw_puller\Quanyi.Entity\obj\Debug\Quanyi.Entity.
 C:\Users\ldm\Desktop\药房网\xfw_puller\Quanyi.Entity\obj\Debug\Quanyi.Entity.pdb
 D:\work\B2c\yaofangwang\code\药房网\xfw_puller\Quanyi.Entity\bin\Debug\Quanyi.Entity.dll
 D:\work\B2c\yaofangwang\code\药房网\xfw_puller\Quanyi.Entity\bin\Debug\Quanyi.Entity.pdb
-D:\work\B2c\yaofangwang\code\药房网\xfw_puller\Quanyi.Entity\obj\Debug\Quanyi.Entity.csprojAssemblyReference.cache
 D:\work\B2c\yaofangwang\code\药房网\xfw_puller\Quanyi.Entity\obj\Debug\Quanyi.Entity.csproj.CoreCompileInputs.cache
 D:\work\B2c\yaofangwang\code\药房网\xfw_puller\Quanyi.Entity\obj\Debug\Quanyi.Entity.dll
 D:\work\B2c\yaofangwang\code\药房网\xfw_puller\Quanyi.Entity\obj\Debug\Quanyi.Entity.pdb
+D:\work\B2c\yaofangwang\code\药房网\xfw_puller\Quanyi.Entity\obj\Debug\Quanyi.Entity.csprojAssemblyReference.cache

@@ -530,19 +530,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>PD1HuB/HMRccePrBgny52dOalJkIIiki+fRgeL/UjLQ=</dsig:DigestValue>
+        <dsig:DigestValue>skNFST/BODjxX9U/PcqD2opKLjlBo4F+eor5jXXqHRU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Quanyi.B2c.TMall.exe" size="139280">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Quanyi.B2c.TMall.exe" size="138752">
       <assemblyIdentity name="Quanyi.B2c.TMall" version="1.0.0.1001" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>6arfa2XzjONDjj4mdK5J94DV5QWRT5NYylRQSExUwsE=</dsig:DigestValue>
+        <dsig:DigestValue>e1nuOpbGxPCZ1/oXqP2L0d6poYFGGtmjvYpfBuPWwJ4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -554,7 +554,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8WIR2mgL+ahbuc+9zMmjonmIROWCeSyxlwj9cIq4/iA=</dsig:DigestValue>
+        <dsig:DigestValue>LraqapInihOLYsa1Lsv4NAeGx5XwULLyaroq2anGebQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -621,13 +621,13 @@
       <dsig:DigestValue>fV2emPaQiwiJjte3rPo4pxDX2TcFDUrhCKgcTVvJgoM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Quanyi.B2c.TMall.exe.config" size="1014">
+  <file name="Quanyi.B2c.TMall.exe.config" size="1012">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Zbd5+GAC1C+MHmUdRqB6KNVzp7oLNufOXBR96R1aOuk=</dsig:DigestValue>
+      <dsig:DigestValue>kkUzgQ2YHKig0XSvl1C530QwCj7xPX4WkBmK7M80h6U=</dsig:DigestValue>
     </hash>
   </file>
   <file name="XmlConfig\system.config" size="182">

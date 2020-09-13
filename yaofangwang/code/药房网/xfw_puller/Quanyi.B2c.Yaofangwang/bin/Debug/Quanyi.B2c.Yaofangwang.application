@@ -4,17 +4,17 @@
   <description asmv2:publisher="Quanyi.B2c.Yaofangwang" asmv2:product="Quanyi.B2c.Yaofangwang" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Quanyi.B2c.Yaofangwang.exe.manifest" size="34169">
+    <dependentAssembly dependencyType="install" codebase="Quanyi.B2c.Yaofangwang.exe.manifest" size="11136">
       <assemblyIdentity name="Quanyi.B2c.Yaofangwang.exe" version="1.0.0.9" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GV0+g4XRmIiLdz2yiNDLzURB4vjsH1/bSHRlEb8CZqI=</dsig:DigestValue>
+        <dsig:DigestValue>eGjgnjgyuoEYdxvBFVEFeo5ijtL5VeqgetmgPQlNGE4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

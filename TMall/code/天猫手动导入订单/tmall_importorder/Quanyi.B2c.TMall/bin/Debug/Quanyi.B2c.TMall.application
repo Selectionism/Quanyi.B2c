@@ -4,7 +4,7 @@
   <description asmv2:publisher="Quanyi.B2c.TMall" asmv2:product="Quanyi.B2c.TMall" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
     <dependentAssembly dependencyType="install" codebase="Quanyi.B2c.TMall.exe.manifest" size="36567">
@@ -14,7 +14,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>QS55lSJa/j6ZbxDZiLwInp0hW2WqfWQjOQb9v3fVnKY=</dsig:DigestValue>
+        <dsig:DigestValue>teBVuFntbGhdSoTp0xH9FYUyse1USlSxF7HVJrr0JD4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
